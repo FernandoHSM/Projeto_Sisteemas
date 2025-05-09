@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: orange;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+main * {
+padding-left: 10px; 
+padding-right: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 131, 0);
+    
+    height: 7vh;
+    list-style: none; /* Remove os marcadores */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaço entre os itens */
+}
+
+nav a {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    transition: 0.3s;
+   
+}
+
+nav a:hover {
+    color: black;
+}
+
+strong {
+
+    color: red;
+}
+
+body * {
+    font-family: Arial;
+    box-sizing: border-box;
+ 
+}
+
+main  li, ul{
+    color: black;
+    background-color: #ffffff;
+}
+
+main {
+    padding: 1px;
+}
+
+h2, h1 {
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+p {
+    line-height: 1.5;
+    margin: 0.5rem 0;
+    line-height: 1.8;
+    letter-spacing: 1,8;
+}
+
+footer {
+    background-color: #ffffff;
+    color: white;
+    text-align: left;
+    padding: 0.5px;
+    position: relative;
+    line-height: 20px;
+}
+
+
+h2{
+    font-weight: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header, footer {
+        text-align: center;
+        padding: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    header, footer {
+        padding: 0.5px;
+    }
+}
